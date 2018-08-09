@@ -67,14 +67,14 @@ let config = {
 ## edit UX/UI
 
 **do edit [admin](https://www.morningti.me/admin)**
-please edit the file [/client/src/Screens/Admin/Admin](client/src/Screens/Admin/Admin)
+please edit the file [/Admin](client/src/Screens/Admin/Admin)
 
 **do edit [post page](https://www.morningti.me/demo)**
-please edit the file [/client/src/components/Posts/PostContainer/PostContainer.js](client/src/components/Posts/PostContainer/PostContainer.js)
+please edit the file [/PostContainer.js](client/src/components/Posts/PostContainer/PostContainer.js)
 
 **do edit [user page](https://www.morningti.me/demo)**
-please edit the file [/client/src/Screens/UserPage/UserPage.js](client/src/Screens/UserPage/UserPage.js)
+please edit the file [/UserPage.js](client/src/Screens/UserPage/UserPage.js)
 
 **do edit the mini-post component inside "edit posts" section**
-please edit the file [/client/src/components/Posts/MiniPost/MiniPost.js](client/src/components/Posts/MiniPost/MiniPost.js)
+please edit the file [/MiniPost.js](client/src/components/Posts/MiniPost/MiniPost.js)
 
