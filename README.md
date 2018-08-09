@@ -2,7 +2,7 @@
 
 ## MorningTi.me - tell your story
 
-MorningTi.me is an open source app to help you writter your story. 
+MorningTi.me is an open source app to help you write your story. 
 Share your thoughts, knowledge and ideas with everyone.  
 
 **[user page example](https://www.morningti.me/demo/)**
