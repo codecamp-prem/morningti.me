@@ -1,0 +1,286 @@
+body {
+  font-family: 'Catamaran'!important;
+
+}
+
+a:focus {
+  outline: none!important;
+}
+
+.write-blog-btn:active {
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%)!important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran'!important;
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.rounded-pill {
+  border-radius: 5px!important;
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  border-width: 0!important;
+  position:absolute; 
+  top:-1rem!important; 
+  right:1.5rem!important;
+}
+
+
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.obiwan-link {
+  color:#d3d3d3!important
+}
+
+.obiwan-link:hover {
+  color:rgba(23, 162, 184, 0.5)!important;
+}
+
+header.masthead {
+  height:100vh!important;
+  padding:0!important;
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: #161616 !important;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 8rem!important;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 4rem!important;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+}
+
+@media (max-width:919px) {
+  .bg-circle-4 {
+    display: none;
+  }
+}
+
+@media (max-width:668px) {
+  .bg-circle-1 {
+    display: none;
+  }
+}
+
+
+
+
+/*iPhone 6*/
+@media (width:375px) and (height:667px) {
+  header.masthead .masthead-content .masthead-heading {
+    padding-top: 11rem!important;
+    font-size: 5rem!important;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 3rem!important;
+  }
+}
+
+
+/*Galaxy S4*/
+@media (width:360px) and (height:640px) {
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4.5rem!important;
+    padding-top: 11rem!important;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 3rem!important;
+  }
+}
+
+
+/*iPhone 7 Plus && Nexus 6P*/
+@media (min-width:411px) {
+  header.masthead .masthead-content .masthead-heading {
+    padding-top: 12rem!important;
+    font-size: 5.5rem!important;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 3rem!important;
+  }
+}
+
+/*ipad air*/
+@media (min-width:768px) {
+  header.masthead .masthead-content .masthead-heading {
+    padding-top: 20rem!important;
+  }
+}
+
+/*android tablet*/
+@media (width:600px) and (height:960px) {
+  header.masthead .masthead-content .masthead-heading {
+    padding-top: 20rem!important;
+    font-size: 6rem!important;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 3rem!important;
+  }
+}
+
+
+/*iPhone 5*/
+@media (max-width:320px) {
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem!important;
+    padding-top: 9rem!important;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2.5rem!important;
+  }
+}
+
+
+/*iPhone 4*/
+@media (max-height:480px) {
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem!important;
+    padding-top: 9rem!important;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem!important;
+  }
+}
+
+header.masthead .bg-circle-1 {
+  height: 90rem;
+  width: 90rem;
+  bottom: -55rem;
+  left: -55rem;
+}
+
+header.masthead .bg-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  left: -25rem;
+}
+
+header.masthead .bg-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+}
+
+header.masthead .bg-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -5rem;
+  right: 35%;
+}
+
+.main-footer {
+  text-align: center!important;
+  background-color: #161616;
+  color:#d3d3d3
+}
+
+a {
+  text-decoration: none!important
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #ee0979;
+  border-color: #ee0979;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #bd0760 !important;
+  border-color: #bd0760 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.img-fluid {
+  border-radius: 10px!important
+}
