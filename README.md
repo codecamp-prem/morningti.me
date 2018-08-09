@@ -5,6 +5,9 @@
 MorningTi.me is an open source app to help you writter your story. 
 Share your thoughts, knowledge and ideas with everyone.  
 
+**[user page example](https://www.morningtime/demo/)**
+**[post example](https://www.morningti.me/demo/1533489148833)**
+
 ## Of course its free 
 you can always go to - [www.morningti.me](https://www.morningti.me) and create your blog for free
 ## Open source 
