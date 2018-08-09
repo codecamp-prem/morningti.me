@@ -66,7 +66,7 @@ let config = {
 
 ## edit UX/UI
 
-**do edit [/admin](https://www.morningti.me/admin)**
+**do edit [admin](https://www.morningti.me/admin)**
 please edit the file [/client/src/Screens/Admin/Admin](client/src/Screens/Admin/Admin)
 
 **do edit [post page](https://www.morningti.me/demo)**
