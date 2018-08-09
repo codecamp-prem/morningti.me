@@ -5,7 +5,7 @@
 MorningTi.me is an open source app to help you writter your story. 
 Share your thoughts, knowledge and ideas with everyone.  
 
-**[user page example](https://www.morningtime/demo/)**
+**[user page example](https://www.morningti.me/demo/)**
 <br/>
 **[post example](https://www.morningti.me/demo/1533489148833)**
 
