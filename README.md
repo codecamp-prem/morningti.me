@@ -26,13 +26,6 @@ let config = {
     frontEndServer:process.env.frontEndServer || "http://localhost:3000" // your front end server
 };
  ```
-
-## database 
- I assume you have MongoDB installed and running - this project require you to have it. 
- If you dont have MongoDB installed - you can see how to install it [here](https://docs.mongodb.com/manual/installation/)  
-
-**after installing - dont forget to run it with `sh sudo mongod`**
-
 **note**
  you must have smtp server up and runinig to run your own instance
  It should send activation email to your users as they signup - it can be done only with domain address and smtp server.
@@ -61,7 +54,11 @@ let config = {
 `js backEndServer` is for your back end server - (if you want to run it locally set it to `localhost:3010`)  
 `js frontEndServer` is for your front end server - (if you want to run it locally set it to `localhost:3000`) 
 
+## database 
+ I assume you have MongoDB installed and running - this project require you to have it. 
+ If you dont have MongoDB installed - you can see how to install it [here](https://docs.mongodb.com/manual/installation/)  
 
+**after installing - dont forget to run it with `sh sudo mongod`**
 
 ## edit UX/UI
 
