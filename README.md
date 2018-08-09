@@ -64,6 +64,18 @@ let config = {
 
 **after installing - dont forget to run it with `sudo mongod`**
 
+## to run
+
+```sh
+cd client/
+npm install
+npm start
+
+cd server/
+npm install
+npm start
+```
+
 ## edit UX/UI
 
 **do edit [admin](https://www.morningti.me/admin)**
