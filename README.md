@@ -75,6 +75,6 @@ please edit the file [/client/src/components/Posts/PostContainer/PostContainer.j
 **do edit [user page](https://www.morningti.me/demo)**
 please edit the file [/client/src/Screens/UserPage/UserPage.js](client/src/Screens/UserPage/UserPage.js)
 
-**do edit your posts component**
+**do edit the mini-post component inside "edit posts" section**
 please edit the file [/client/src/components/Posts/MiniPost/MiniPost.js](client/src/components/Posts/MiniPost/MiniPost.js)
-and [/client/src/components/Posts/MiniPost/MiniPostsContainer.js](client/src/components/Posts/MiniPost/MiniPostsContainer.js)
+
